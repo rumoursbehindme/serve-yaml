@@ -3,14 +3,25 @@
   "version": "1.0.0",
   "description": "This package is to serve yaml configurations as json in a single object",
   "main": "index.js",
-  "repository": "https://github.com/rumoursbehindme/serve-yaml.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rumoursbehindme/serve-yaml.git"
+  },
   "author": "rumoursbehindme",
   "license": "MIT",
   "type": "module",
-  "scripts": {
-    "test": "node test/test.js"
-  },
   "dependencies": {
     "js-yaml": "^4.1.0"
-  }
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "syc"
+  ],
+  "bugs": {
+    "url": "https://github.com/rumoursbehindme/serve-yaml/issues"
+  },
+  "homepage": "https://github.com/rumoursbehindme/serve-yaml#readme"
 }

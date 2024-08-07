@@ -1,0 +1,16 @@
+{
+  "name": "serve-yaml",
+  "version": "1.0.0",
+  "description": "This package is to serve yaml configurations as json in a single object",
+  "main": "index.js",
+  "repository": "https://github.com/rumoursbehindme/serve-yaml.git",
+  "author": "rumoursbehindme",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "dependencies": {
+    "js-yaml": "^4.1.0"
+  }
+}
